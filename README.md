@@ -17,9 +17,11 @@ Edit maxcore 5000 pal nprocs 16 end
 
 ## 5. Create and Edit the .itp file
 
-## 6. Build the initial configuration by using Packmol (recommended)
+## 6. Build the initial configuration by using Packmol (Recommended)
 
 `Packmol < input.inp`
+
+or usage the `gmx insert-molecules` command line
 
 ## 7. Run GROMACS
 
