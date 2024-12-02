@@ -11,4 +11,15 @@ Edit maxcore 5000 pal nprocs 16 end
 
 ## 3. Convert the .out file to PDB file by using Avogadro.
 
-## 4. Generate the .top file by using [GMXTOP](https://jerkwin.github.io/prog/gmxtop.html)
+## 4. Generate the .top file by using
+
+[GMXTOP](https://jerkwin.github.io/prog/gmxtop.html)
+
+## 5. Create and Edit the .itp file
+
+## 6. Build the initial configuration by using Packmol (recommended)
+
+`Packmol < input.inp`
+
+## 7. Run GROMACS
+
