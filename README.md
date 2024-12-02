@@ -8,3 +8,7 @@
 *Tip: Use the Multiwnf to generation the ORCA input file (oi)*
 
 Edit maxcore 5000 pal nprocs 16 end
+
+## 3. Convert the .out file to PDB file by using Avogadro.
+
+## 4. Generate the .top file by using [GMXTOP](https://jerkwin.github.io/prog/gmxtop.html)
