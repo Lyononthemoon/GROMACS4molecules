@@ -10,7 +10,7 @@ Edit maxcore 5000 pal nprocs 16 end
 ## 3. Convert the .out file to PDB file
 Usage Avogadro
 
-Remember revise the "residues"MOL to specific name, like "baicalin" to "BCL"
+Remember revise the "residues" UNL to specific name, like "baicalin" to "BCL"
 ## 4. Generate the .top file
 Usage [GMXTOP](https://jerkwin.github.io/prog/gmxtop.html)
 
@@ -23,7 +23,7 @@ Usage acpype.py
 Usage [sobtop](http://sobereva.com/soft/Sobtop/)  (Recommended)
 
 ## 5. Create and Edit the .itp file
-Edit the UNL to the specific name, like "baicalin" to "BCL"
+Edit the MOL to the specific name, like "baicalin" to "BCL"
 ## 6. Build the initial configuration
 
 Usage Packmol (Recommended)
