@@ -10,7 +10,7 @@ Edit maxcore 5000 pal nprocs 16 end
 ## 3. Convert the .out file to PDB file
 Usage Avogadro
 
-Remember revise the "residues" UNL or MOL to specific name, like "baicalin" to "BCL"
+Remember revise the "residues"MOL to specific name, like "baicalin" to "BCL"
 ## 4. Generate the .top file
 Usage [GMXTOP](https://jerkwin.github.io/prog/gmxtop.html)
 
