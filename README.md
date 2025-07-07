@@ -70,3 +70,6 @@ or usage the `gmx insert-molecules` command line
 `gmx rdf -s md_0_1.tpr -f md_0_1_noPBC.xtc -n index.ndx -o rdf.xvg -b 0 -e 200 -dt 0.1`
 
 `gmx sasa -f md_0_1_noPBC.xtc -s md_0_1.tpr -n index.ndx -tu ns -odg -surface -o area.xvg -b 0 -e 50 -dt 0.1`
+
+`gmx hbond -s md_0_1.tpr -f md_0_1_noPBC.xtc -n index.ndx -num hbnum.xvg -tu ns`
+
