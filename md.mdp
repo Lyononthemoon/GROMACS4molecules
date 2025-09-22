@@ -33,10 +33,10 @@ tc-grps		= system
 tau_t		= 0.1                               ; time constant, in ps
 ref_t		= 298.15                            ; reference temperature, one for each group, in K
 ; Simulated annealing
-annealing            = single     ; single point annealing
-annealing_npoints    = 3
-annealing_time       = 0 50000 120000
-annealing-temp       = 298.15 363.15 298.15
+; annealing            = single     ; single point annealing
+; annealing_npoints    = 3
+; annealing_time       = 0 50000 120000
+; annealing-temp       = 298.15 363.15 298.15
 ; Pressure coupling is on
 pcoupl		        = Parrinello-Rahman	      ; Pressure coupling on in NPT
 pcoupltype	        = isotropic	            ; uniform scaling of box vectors
