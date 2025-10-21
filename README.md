@@ -90,9 +90,7 @@ or
 
 ### 8. Visualizations
 
-*Supercell 
-
-supercell can display multiple copies of the unit cell. Can also fill the unit cell (and its copies) with symmetry mates.
+Supercell can display multiple copies of the unit cell. Can also fill the unit cell (and its copies) with symmetry mates.
 
 See thread on pymol-users mailing list.
 
