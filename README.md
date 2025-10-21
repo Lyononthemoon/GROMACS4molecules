@@ -74,6 +74,20 @@ or usage the `gmx insert-molecules` command line
 
 `gmx hbond -s md_0_1.tpr -f md_0_1_noPBC.xtc -n index.ndx -num hbnum.xvg -tu ns`
 
+#### Free Energy Landscape
+
+merge_rmsd_gyrate.py merge rmsd.xvg and gyrate.xvg to output rmsd_plus_gyrate.xvg
+
+'gmx sham -f rmsd_plus_gyrate.xvg -ls gibbs.xpm -nlevels 50'
+
+'python xpm2png.py -f gibbs.xpm -show no -ip yes -o gibbs.png'
+
+or
+
+'python xpm2txt.py -f input.xpm -o output.txt'
+
+'python xpm2txt.py -f .\gibbs.xpm -o .\gibbs.txt'
+
 ### DynamiSpectra
 *is an advanced Python package designed for analyzing molecular dynamics simulation data.
 
