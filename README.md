@@ -88,6 +88,20 @@ or
 
 `python xpm2txt.py -f .\gibbs.xpm -o .\gibbs.txt`
 
+### 8. Visualizations
+
+*Supercell 
+
+supercell can display multiple copies of the unit cell. Can also fill the unit cell (and its copies) with symmetry mates.
+
+See thread on pymol-users mailing list.
+
+Requires numpy.
+
+[Supercell - PyMOLWiki](https://pymolwiki.org/index.php/Supercell)
+
+[pymol-psico/psico/xtal.py](https://github.com/speleo3/pymol-psico/blob/master/psico/xtal.py)
+
 ### DynamiSpectra
 *is an advanced Python package designed for analyzing molecular dynamics simulation data.
 
