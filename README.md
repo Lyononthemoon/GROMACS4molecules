@@ -57,8 +57,8 @@ pal nprocs 16 end
 ### 方法一：GMXTOP  
 访问 [https://jerkwin.github.io/prog/gmxtop.html](https://jerkwin.github.io/prog/gmxtop.html)
 
-### 方法二：acpype.py（本地脚本）  
-脚本路径：`/home/yang/Documents/lyon/MD231106/`  
+### 方法二：acpype.py
+
 **注意**：使用前需将脚本第 3185 行的 `"mopac"` 改为 `"sqm"`。  
 ```bash
 ./acpype.py -i molecule.mol2
